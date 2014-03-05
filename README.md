@@ -15,7 +15,7 @@ scroll_display_class functions:
 
 **void operator=(const scroll_display_class&):**  This is added for assigning a vector after initialization.  You can initialize the class with a vector, but if you can't, then this is how you can do it.  
 
-**std::vector<std::string> window():**  returns a vector that contains the current window of items.  
+**std::vector\<std::string\> window():**  returns a vector that contains the current window of items.  
 **const position_data& gpos():**  returns position structure:  [whole]-  position relative with the entire display.  This can be used to reference the item in your vector directly.  [part]-  Position relative to the window.  This can be use to represent the user's currently selected item in the window.  
 
 **long &window_size():** returns a reference to the window's size.  can be safely set to anything.  
