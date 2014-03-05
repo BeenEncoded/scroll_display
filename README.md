@@ -29,5 +29,6 @@ This was written by me, because NCurses is far too bloated for what I need.  I j
 This is a text based scroll display.  It's bare minimum.  You can add other things, without modifying the class.  
 
 This display is especially good when large lists need to be used.  Example: a filesystem can have over 2,000 entries.  If you write a filesystem browser, this would be a great solution for the menu.  
+**If you find any bugs, please don't hesitate to submit a pull request.  :)**  
 
 Have fun!
